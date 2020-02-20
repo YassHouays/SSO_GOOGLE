@@ -1,2 +1,2 @@
-# SSO_GOOGLE
-Projet, créer une petite application nodeJS, capable de se connecter en SSO avc google
+# sso_courses
+Authentification via Passport (Google, Facebook)
