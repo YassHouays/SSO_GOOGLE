@@ -1,8 +1,13 @@
 var id = {
     google: {
-        clientID: process.env.CLIENTID,
-        clientSecret: process.env.CLIENTSECRET,
-        callbackURL: process.env.CALLBACKURL
+        GOOGLEclientID: process.env.GOOGLECLIENTID,
+        GOOGLEclientSecret: process.env.GOOGLECLIENTSECRET,
+        GOOGLEcallbackURL: process.env.GOOGLECALLBACKURL
+    },
+    facebook: {
+        FACEBOOKclientID: process.env.FACEBOOKCLIENTID,
+        FACEBOOKclientSecret: process.env.FACEBOOKCLIENTSECRET,
+        FACEBOOKcallbackURL: process.env.FACEBOOKCALLBACKURL
     }
 };
 

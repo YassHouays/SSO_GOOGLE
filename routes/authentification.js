@@ -13,6 +13,16 @@ var express = require('express');
 				    })
 				);
 
+				router.get('/facebook',
+				    passport.authenticate('facebook'));
+
+				router.get('/facebook/callback',
+				    passport.authenticate('facebook', {
+				        successRedirect : '/',
+				        failureRedirect : '/login'
+				    })
+				);
+
 
 				module.exports = router;
 			
