@@ -13,4 +13,7 @@ FACEBOOKCLIENTID=</br>
 FACEBOOKCLIENTSECRET=</br>
 FACEBOOKCALLBACKURL=http://localhost:3030/authentification/facebook/callback</br>
 
-Ajouter bien sur vos propres informations relatives à vos comptes google développeur et facebook developpeur dans celui-ci. 
+N'oubliez pas de faire un npm install , pour créer le fichier node_modules qui contient tout ce dont nous avons besoins pour notre projet.
+
+Ajouter bien sur vos propres informations relatives à vos comptes google développeur et facebook developpeur dans celui-ci.
+Pour créer votre projet google et facebook suivre ces liens : <a href = "https://console.developers.google.com/apis/credentials">google</a> <a href="https://developers.facebook.com/apps/">facebook</a>
