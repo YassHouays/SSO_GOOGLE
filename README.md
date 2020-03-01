@@ -6,11 +6,11 @@ Pour réaliser ce projet, j'ai tout d'abord créer une application nodeJS, tout 
 Pour gérer la connection en SSO avec google et facebook, j'ai utiliser passport js qui permet de se connecter à service très simplement. 
 
 Pour essayer le projet, il vous suffit de le télécharger, et d'ajouter à la racine de celui ci un fichier .env qui contient les variables suivantes : 
-GOOGLECLIENTID=
-GOOGLECLIENTSECRET=
-GOOGLECALLBACKURL=http://localhost:3030/authentification/google/callback
-FACEBOOKCLIENTID=
-FACEBOOKCLIENTSECRET=
-FACEBOOKCALLBACKURL=http://localhost:3030/authentification/facebook/callback
+GOOGLECLIENTID=</br>
+GOOGLECLIENTSECRET=</br>
+GOOGLECALLBACKURL=http://localhost:3030/authentification/google/callback</br>
+FACEBOOKCLIENTID=</br>
+FACEBOOKCLIENTSECRET=</br>
+FACEBOOKCALLBACKURL=http://localhost:3030/authentification/facebook/callback</br>
 
 Ajouter bien sur vos propres informations relatives à vos comptes google développeur et facebook developpeur dans celui-ci. 
